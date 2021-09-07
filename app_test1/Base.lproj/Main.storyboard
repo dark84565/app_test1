@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wJo-Fv-kfr">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eric Chang-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_test1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MA1-YS-6JH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
+                                <subviews>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdE-xV-J0p">
+                                        <rect key="frame" x="212" y="20" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.97801584009999998" green="0.90976834299999998" blue="0.45078086849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="二">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8RS-gW-nMX"/>
+                                            <outletCollection property="gestureRecognizers" destination="Q2U-eh-cBs" appends="YES" id="RaX-yp-xMt"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="r2v-43-sJK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyz-GV-uIw">
+                                        <rect key="frame" x="20" y="262" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.66365033389999994" green="0.90540617700000003" blue="0.52435380220000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="三">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IMj-Oz-M04"/>
+                                            <outletCollection property="gestureRecognizers" destination="yQa-xX-3mK" appends="YES" id="LCs-n5-WUc"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="jic-x8-oaE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMx-Vh-NkB">
+                                        <rect key="frame" x="212" y="262" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.62217402460000004" green="0.86300152539999997" blue="0.70352727169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="四">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="80e-my-ZQv"/>
+                                            <outletCollection property="gestureRecognizers" destination="XXg-aF-0xZ" appends="YES" id="LBD-Rm-yBy"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="cJF-hr-bO3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81o-qy-PIo">
+                                        <rect key="frame" x="20" y="504" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.54314970969999998" green="0.51945912839999997" blue="0.91373682020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="五">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UI1-gX-6VR"/>
+                                            <outletCollection property="gestureRecognizers" destination="0NS-IX-cO1" appends="YES" id="BIh-ud-Haj"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="nHf-Lx-QHa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwV-4m-95W">
+                                        <rect key="frame" x="212" y="504" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.69249868390000002" green="0.50621372460000003" blue="0.72350221869999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="六">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAP-Gy-ott"/>
+                                            <outletCollection property="gestureRecognizers" destination="UOT-oU-3a4" appends="YES" id="voK-Iq-xSz"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="E3y-3Z-Qh3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQx-6W-ree">
+                                        <rect key="frame" x="20" y="20" width="182" height="232"/>
+                                        <color key="backgroundColor" red="0.83311349150000003" green="0.5353001356" blue="0.53583651779999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="一">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="printNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hoQ-bJ-tto"/>
+                                            <outletCollection property="gestureRecognizers" destination="aT7-dE-YnA" appends="YES" id="P4I-YM-Wld"/>
+                                            <segue destination="keZ-Ua-Rn1" kind="show" id="xva-H8-zHe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="SMx-Vh-NkB" secondAttribute="trailing" constant="20" id="6CD-7D-dDW"/>
+                                    <constraint firstItem="SMx-Vh-NkB" firstAttribute="width" secondItem="DQx-6W-ree" secondAttribute="width" id="6Gb-NU-WFQ"/>
+                                    <constraint firstItem="DQx-6W-ree" firstAttribute="top" secondItem="MA1-YS-6JH" secondAttribute="top" constant="20" id="6lE-p7-0Cx"/>
+                                    <constraint firstItem="gwV-4m-95W" firstAttribute="height" secondItem="DQx-6W-ree" secondAttribute="height" id="7su-eO-cQA"/>
+                                    <constraint firstItem="81o-qy-PIo" firstAttribute="top" secondItem="wyz-GV-uIw" secondAttribute="bottom" constant="10" id="A1J-PZ-5To"/>
+                                    <constraint firstItem="wyz-GV-uIw" firstAttribute="height" secondItem="DQx-6W-ree" secondAttribute="height" id="Dae-DG-svC"/>
+                                    <constraint firstItem="wyz-GV-uIw" firstAttribute="top" secondItem="DQx-6W-ree" secondAttribute="bottom" constant="10" id="FTc-2d-fyo"/>
+                                    <constraint firstItem="gwV-4m-95W" firstAttribute="leading" secondItem="81o-qy-PIo" secondAttribute="trailing" constant="10" id="HTN-L0-vEk"/>
+                                    <constraint firstItem="DQx-6W-ree" firstAttribute="leading" secondItem="MA1-YS-6JH" secondAttribute="leading" constant="20" id="HVf-lg-YKL"/>
+                                    <constraint firstItem="fdE-xV-J0p" firstAttribute="leading" secondItem="DQx-6W-ree" secondAttribute="trailing" constant="10" id="Hww-As-tYg"/>
+                                    <constraint firstAttribute="trailing" secondItem="gwV-4m-95W" secondAttribute="trailing" constant="20" id="KTs-zg-cdc"/>
+                                    <constraint firstItem="gwV-4m-95W" firstAttribute="width" secondItem="DQx-6W-ree" secondAttribute="width" id="SjN-HR-sVG"/>
+                                    <constraint firstItem="81o-qy-PIo" firstAttribute="leading" secondItem="MA1-YS-6JH" secondAttribute="leading" constant="20" id="VR5-VH-dTC"/>
+                                    <constraint firstAttribute="trailing" secondItem="fdE-xV-J0p" secondAttribute="trailing" constant="20" id="VRh-AS-0vh"/>
+                                    <constraint firstItem="fdE-xV-J0p" firstAttribute="width" secondItem="DQx-6W-ree" secondAttribute="width" id="XST-xH-BBM"/>
+                                    <constraint firstItem="SMx-Vh-NkB" firstAttribute="leading" secondItem="wyz-GV-uIw" secondAttribute="trailing" constant="10" id="Zaz-97-BwC"/>
+                                    <constraint firstItem="SMx-Vh-NkB" firstAttribute="top" secondItem="fdE-xV-J0p" secondAttribute="bottom" constant="10" id="a4n-oB-9GX"/>
+                                    <constraint firstItem="wyz-GV-uIw" firstAttribute="width" secondItem="DQx-6W-ree" secondAttribute="width" id="bqO-fQ-PUv"/>
+                                    <constraint firstItem="81o-qy-PIo" firstAttribute="height" secondItem="DQx-6W-ree" secondAttribute="height" id="exl-Td-bcC"/>
+                                    <constraint firstItem="wyz-GV-uIw" firstAttribute="top" secondItem="DQx-6W-ree" secondAttribute="bottom" constant="10" id="gsZ-7k-2Sw"/>
+                                    <constraint firstItem="wyz-GV-uIw" firstAttribute="leading" secondItem="MA1-YS-6JH" secondAttribute="leading" constant="20" id="h8S-F4-uT7"/>
+                                    <constraint firstAttribute="bottom" secondItem="81o-qy-PIo" secondAttribute="bottom" constant="20" id="hN7-gS-KHP"/>
+                                    <constraint firstItem="gwV-4m-95W" firstAttribute="top" secondItem="SMx-Vh-NkB" secondAttribute="bottom" constant="10" id="pUh-sm-4Ve"/>
+                                    <constraint firstItem="SMx-Vh-NkB" firstAttribute="top" secondItem="fdE-xV-J0p" secondAttribute="bottom" constant="10" id="s06-QD-EBu"/>
+                                    <constraint firstItem="81o-qy-PIo" firstAttribute="width" secondItem="DQx-6W-ree" secondAttribute="width" id="tej-5Y-pOv"/>
+                                    <constraint firstItem="fdE-xV-J0p" firstAttribute="height" secondItem="DQx-6W-ree" secondAttribute="height" id="uHp-Rj-zTY"/>
+                                    <constraint firstItem="fdE-xV-J0p" firstAttribute="top" secondItem="MA1-YS-6JH" secondAttribute="top" constant="20" id="xLm-LR-b4C"/>
+                                    <constraint firstItem="SMx-Vh-NkB" firstAttribute="height" secondItem="DQx-6W-ree" secondAttribute="height" id="xji-kW-oNV"/>
+                                    <constraint firstAttribute="bottom" secondItem="gwV-4m-95W" secondAttribute="bottom" constant="20" id="yCt-tt-zh3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MA1-YS-6JH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BGR-KF-atq"/>
+                            <constraint firstItem="MA1-YS-6JH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fKI-El-8Mt"/>
+                            <constraint firstAttribute="trailing" secondItem="MA1-YS-6JH" secondAttribute="trailing" id="ikA-An-Hpn"/>
+                            <constraint firstAttribute="bottom" secondItem="MA1-YS-6JH" secondAttribute="bottom" id="vkY-jQ-1mV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Eric Chang" id="9fS-pm-pXQ">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="Y9B-lb-Mh4"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="button1" destination="DQx-6W-ree" id="rvq-Dq-Zyv"/>
+                        <outlet property="button2" destination="fdE-xV-J0p" id="m8Z-zG-iIT"/>
+                        <outlet property="button3" destination="wyz-GV-uIw" id="cRz-Ah-wWJ"/>
+                        <outlet property="button4" destination="SMx-Vh-NkB" id="bT2-Oq-j4B"/>
+                        <outlet property="button5" destination="81o-qy-PIo" id="kiV-Oi-Mv5"/>
+                        <outlet property="button6" destination="gwV-4m-95W" id="ic3-p9-z2q"/>
+                        <outlet property="navigatorBar" destination="9fS-pm-pXQ" id="8WG-qh-Mps"/>
+                        <outlet property="subview" destination="MA1-YS-6JH" id="KUa-sH-5WR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="aT7-dE-YnA">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="Qep-3k-FNn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Q2U-eh-cBs">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="IlZ-DG-9X2"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="yQa-xX-3mK">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="gqn-dl-Ze9"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="XXg-aF-0xZ">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="BN8-jX-rxb"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0NS-IX-cO1">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="l8y-yW-Abx"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="UOT-oU-3a4">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="g1N-CP-4ks"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="902.89855072463774" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1GZ-mW-X3O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wJo-Fv-kfr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" largeTitles="YES" id="TQg-w3-Tku">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xyR-nP-IH8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="be0-0d-33b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2463768115942031" y="88.392857142857139"/>
+        </scene>
+        <!--HKTVMall-->
+        <scene sceneID="BjA-8B-DnY">
+            <objects>
+                <viewController id="keZ-Ua-Rn1" customClass="HKTVViewController" customModule="app_test1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RRV-Hp-rNT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="d7S-Yt-XNp"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HKTVMall" id="2IY-BT-pZP">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="xFW-r1-YNS"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dg5-Vk-8fz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651" y="88"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="E3y-3Z-Qh3"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
